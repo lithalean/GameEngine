@@ -63,8 +63,6 @@
 #include "modules/mbedtls/register_types.h"
 #include "modules/meshoptimizer/register_types.h"
 #include "modules/minimp3/register_types.h"
-#include "modules/mobile_vr/register_types.h"
-#include "modules/mono/register_types.h"
 #include "modules/msdfgen/register_types.h"
 #include "modules/multiplayer/register_types.h"
 #include "modules/navigation_2d/register_types.h"
@@ -84,9 +82,7 @@
 #include "modules/vhacd/register_types.h"
 #include "modules/vorbis/register_types.h"
 #include "modules/webp/register_types.h"
-#include "modules/webrtc/register_types.h"
 #include "modules/websocket/register_types.h"
-#include "modules/webxr/register_types.h"
 #include "modules/xatlas_unwrap/register_types.h"
 #include "modules/zip/register_types.h"
 
@@ -178,12 +174,6 @@ void initialize_modules(ModuleInitializationLevel p_level) {
 #ifdef MODULE_MINIMP3_ENABLED
 	initialize_minimp3_module(p_level);
 #endif
-#ifdef MODULE_MOBILE_VR_ENABLED
-	initialize_mobile_vr_module(p_level);
-#endif
-#ifdef MODULE_MONO_ENABLED
-	initialize_mono_module(p_level);
-#endif
 #ifdef MODULE_MSDFGEN_ENABLED
 	initialize_msdfgen_module(p_level);
 #endif
@@ -241,14 +231,8 @@ void initialize_modules(ModuleInitializationLevel p_level) {
 #ifdef MODULE_WEBP_ENABLED
 	initialize_webp_module(p_level);
 #endif
-#ifdef MODULE_WEBRTC_ENABLED
-	initialize_webrtc_module(p_level);
-#endif
 #ifdef MODULE_WEBSOCKET_ENABLED
 	initialize_websocket_module(p_level);
-#endif
-#ifdef MODULE_WEBXR_ENABLED
-	initialize_webxr_module(p_level);
 #endif
 #ifdef MODULE_XATLAS_UNWRAP_ENABLED
 	initialize_xatlas_unwrap_module(p_level);
@@ -346,12 +330,6 @@ void uninitialize_modules(ModuleInitializationLevel p_level) {
 #ifdef MODULE_MINIMP3_ENABLED
 	uninitialize_minimp3_module(p_level);
 #endif
-#ifdef MODULE_MOBILE_VR_ENABLED
-	uninitialize_mobile_vr_module(p_level);
-#endif
-#ifdef MODULE_MONO_ENABLED
-	uninitialize_mono_module(p_level);
-#endif
 #ifdef MODULE_MSDFGEN_ENABLED
 	uninitialize_msdfgen_module(p_level);
 #endif
@@ -409,14 +387,8 @@ void uninitialize_modules(ModuleInitializationLevel p_level) {
 #ifdef MODULE_WEBP_ENABLED
 	uninitialize_webp_module(p_level);
 #endif
-#ifdef MODULE_WEBRTC_ENABLED
-	uninitialize_webrtc_module(p_level);
-#endif
 #ifdef MODULE_WEBSOCKET_ENABLED
 	uninitialize_websocket_module(p_level);
-#endif
-#ifdef MODULE_WEBXR_ENABLED
-	uninitialize_webxr_module(p_level);
 #endif
 #ifdef MODULE_XATLAS_UNWRAP_ENABLED
 	uninitialize_xatlas_unwrap_module(p_level);

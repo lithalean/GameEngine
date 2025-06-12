@@ -32,5 +32,5 @@
 
 #include "core/version.h"
 
-const char *const GODOT_VERSION_HASH = "53241f5aa33ce134dae26e9a01ed4e656737926d";
-const uint64_t GODOT_VERSION_TIMESTAMP = 1749327179;
+const char *const GODOT_VERSION_HASH = "93d436caf72c8ed5b92d995192e2a75631067098";
+const uint64_t GODOT_VERSION_TIMESTAMP = 1749710831;
