@@ -10,6 +10,29 @@
 ![Screenshot of a 3D scene in the Godot Engine editor](https://raw.githubusercontent.com/lithalean/GameEngine/main/docs/screenshots/editor_jenova_demo_1920x1080.jpg)
 
 
+```
+┌─────────────────────────────────────────┐
+│           SwiftUI Native Layer          │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐    │
+│  │ Splash  │ │  Menu   │ │Settings │    │
+│  └─────────┘ └─────────┘ └─────────┘    │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐    │
+│  │ Social  │ │   IAP   │ │Profile  │    │
+│  └─────────┘ └─────────┘ └─────────┘    │
+└─────────────────────────────────────────┘
+                    ↕ Bridge
+┌─────────────────────────────────────────┐
+│        Godot + Jenova Core              │
+│   ┌─────────────────────────────────┐   │
+│   │    Pure Gameplay Experience     │   │
+│   │  • Game mechanics               │   │
+│   │  • Physics & rendering          │   │
+│   │  • Audio & effects              │   │
+│   │  • Performance-critical C++     │   │
+│   └─────────────────────────────────┘   │
+└─────────────────────────────────────────┘
+```
+
 "GameEngine" is a next-generation, high-performance game engine for Darwin ARM64, built to redefine the boundaries of interactive experiences. Originating from the foundation of Godot, "GameEngine" represents a bold evolution engineered for uncompromising quality, exceptional speed, and total creative control. By shedding outdated architectural constraints, it offers a streamlined, modern development environment for the future of game creation.
 
 🔥 Features
