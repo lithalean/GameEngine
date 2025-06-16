@@ -227,7 +227,9 @@ GameEngine/
 - 🔧 **Integration**: Hot-reload implementation, XCFramework generation
 - 📋 **Planning**: Phase-based development, platform cleanup priorities
 
-**AI Context Files**: See `.claude/context.md` for detailed project state, architecture decisions, and ongoing development context.
+**AI Context Files**: 
+- `.claude/context.md` - Detailed project state, architecture decisions, and ongoing development context
+- `.claude/structure.md` - Complete project organization, file structure, and implementation status
 
 ## Success Metrics & Performance Targets
 
