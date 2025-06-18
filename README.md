@@ -1,14 +1,6 @@
 # GameEngine
 *Darwin ARM64 Port of Jenova Engine - Ultra-Focused 3D, Forward+ Only, SwiftUI Ready*
 
-<p align="center">
-  <a href="https://jenova-framework.github.io/">
-    <img src="logo_outlined.svg" width="400" alt="Jenova Engine Darwin ARM64 Port">
-  </a>
-</p>
-
-![Screenshot of a 3D scene in the Jenova Engine editor](https://raw.githubusercontent.com/lithalean/GameEngine/main/docs/screenshots/editor_jenova_demo_1920x1080.jpg)
-
 ![Platform Support](https://img.shields.io/badge/platform-Darwin%20ARM64%20EXCLUSIVE-red)
 ![Renderer](https://img.shields.io/badge/renderer-Forward%2B%20ONLY-purple)
 ![Size](https://img.shields.io/badge/size-<60MB%20target-blue)
